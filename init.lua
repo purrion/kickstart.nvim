@@ -816,9 +816,7 @@ require('lazy').setup({
     'catppuccin/nvim',
     name = 'catppuccin',
     -- priority = 1000,
-    init = function()
-      vim.cmd.colorscheme 'catppuccin-mocha'
-    end,
+    init = function() vim.cmd.colorscheme 'catppuccin-macchiato' end,
   },
 
   -- Highlight todo, notes, etc in comments
